@@ -4,13 +4,7 @@
 
 using namespace std;
 
-int minSwapsCouples(vector<int>& row);
-
 int main() {
-    //testing leetcode 765
-//    vector<int> row = {5, 4, 2, 6, 3, 1, 0, 7};
-//    cout << minSwapsCouples(row);
-
     //testing UnionFind
     UnionFind ds(6);
     ds.print();
@@ -49,13 +43,4 @@ int main() {
     ds.unify(3, 0);
     ds.print();
     return 0;
-}
-
-int minSwapsCouples(vector<int>& row) {     //leetcode 765
-    int len = row.size()/2;
-    UnionFind ds(len);
-    for(int i = 0; i < row.size(); i += 2){
-        ds.unify(row[i]/2, row[i+1]/2);
-    }
-    return len - ds.components();
 }
