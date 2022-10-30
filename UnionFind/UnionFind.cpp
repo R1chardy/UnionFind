@@ -73,11 +73,11 @@ int UnionFind::componentSize(int p){
     return sz[find(p)];
 }
 
-int UnionFind::size(){
+int UnionFind::size() const{
     return num;
 }
 
-int UnionFind::components(){
+int UnionFind::components() const{
     return numComp;
 }
 
@@ -106,7 +106,7 @@ void UnionFind::print(){
         ans[find(i)].push_back(i);
     }
     for(int i = 0; i < ans.size(); i++){
-        if(ans[i].size() == 0){
+        if(ans[i].empty()){
             if(i == ans.size()-1){
                 std::cout << std::endl;
             }

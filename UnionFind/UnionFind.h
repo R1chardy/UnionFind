@@ -21,8 +21,8 @@ public:
     int find(int x);
     bool connected(int p, int q);
     int componentSize(int p);
-    int size();
-    int components();
+    int size() const;
+    int components() const;
     bool unify(int p, int q);
     void print();
 };
