@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/UnionFind.dir/main.cpp.o CMakeFiles/UnionFind.dir/UnionFind.cpp.o -o UnionFind 
