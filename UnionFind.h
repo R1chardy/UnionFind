@@ -14,7 +14,7 @@ private:
     int* root;
 
 public:
-    UnionFind()=delete;
+    UnionFind() = delete;
     UnionFind(int n);
     UnionFind& operator=(const UnionFind& other);
     UnionFind(const UnionFind& other);
