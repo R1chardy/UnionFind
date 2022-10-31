@@ -26,6 +26,7 @@ public:
     int components() const;
     bool unify(int p, int q);
     void print();
+    int largest();
 };
 
 

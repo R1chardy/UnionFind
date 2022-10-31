@@ -81,6 +81,14 @@ int UnionFind::components() const{
     return numComp;
 }
 
+int UnionFind::largest(){
+    int large = 0;
+    for(int i = 0; i < num; i++){
+        large = std::max(large, sz[find(i)]);
+    }
+    return large;
+}
+
 bool UnionFind::unify(int p, int q){
     assert(p >= 0 && p < num && q >= 0 && q < num);
     int root1 = find(p);
