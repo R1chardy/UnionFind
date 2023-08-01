@@ -1,3 +1,0 @@
-/mnt/c/Users/yuanr/CLionProjects/UnionFind/cmake-build-debug/CMakeFiles/UnionFind.dir
-/mnt/c/Users/yuanr/CLionProjects/UnionFind/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/yuanr/CLionProjects/UnionFind/cmake-build-debug/CMakeFiles/rebuild_cache.dir
